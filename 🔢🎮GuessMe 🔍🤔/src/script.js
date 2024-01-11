@@ -20,6 +20,7 @@ function CheckNumber(){
         {   document.getElementById("attempt").style.color = "#ff050d";
             document.getElementById("hint").style.color = "#78effa"; 
             document.getElementById("hint").textContent=" Congrates U Got it!!!";
+            playAudio();
         }
         else if(uGuess<Guess)
         {   
@@ -38,3 +39,11 @@ function CheckNumber(){
 
 
 }
+
+function playAudio() {
+    // Create an Audio object
+    var audio = new Audio('../audio/win.wav'); // Replace with the actual path to your audio file
+  
+    // Play the audio
+    audio.play();
+  }
