@@ -6,6 +6,7 @@ body{
     ); 
     font-family: Arial, sans-serif;
     display: flex;
+    flex-direction: column;
     
 }
 #GameContainer{
@@ -22,7 +23,7 @@ body{
     ); 
 
     backdrop-filter: blur(1rem);
-box-shadow:10px 10px 9px rgba(255, 255, 255, 0.635);
+box-shadow:10px 10px 9px rgba(0, 0, 0, 0.566);
 
 
 }

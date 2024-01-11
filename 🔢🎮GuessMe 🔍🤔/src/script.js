@@ -14,7 +14,7 @@ function CheckNumber(){
         window.alert('Please enter a valid number');
     }
     else{   
-        document.getElementById("attempt").style.color = "#54ff5a"; 
+        document.getElementById("attempt").style.color = "#1916f0"; 
         document.getElementById("attempt").textContent=  ++attempt;  
         if(Guess==uGuess)
         {   document.getElementById("attempt").style.color = "#ff050d";
