@@ -1,4 +1,4 @@
-body{
+body {
     background: linear-gradient(
         to right,
         #333399af,
@@ -7,13 +7,16 @@ body{
     font-family: Arial, sans-serif;
     display: flex;
     flex-direction: column;
-    position:relative;
-    
+    align-items: center; /* Center horizontally */
+    justify-content: center; /* Center vertically */
+    height: 100vh; /* Set the body height to the full viewport height */
+    margin: 0; /* Remove default body margin */
+    position: relative; /* Set position to relative */
 }
-#GameContainer{
+
+#GameContainer {
     border-radius: 10px;
     padding: 20px;
-    margin: auto;
     text-align: center;
     font-size: 2rem;
     font-weight: bold;
@@ -22,12 +25,14 @@ body{
         #333399,
         #ff00cc
     ); 
-
     backdrop-filter: blur(1rem);
-box-shadow:10px 10px 9px rgba(0, 0, 0, 0.566);
-
-
+    box-shadow: 10px 10px 9px rgba(0, 0, 0, 0.566);
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%); /* Center the container */
 }
+
 
 input{
     font-weight: bold;
