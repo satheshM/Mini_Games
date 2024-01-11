@@ -17,7 +17,7 @@ Want to add your game to the collection? Fork the repository and submit a pull r
 How to Get Started:
 Clone the Repository:
 
-git clone https://github.com/your-username/awesome-games.git
+git clone[ https://github.com/your-username/awesome-games.git](https://github.com/satheshM/Mini_Games.git)
 Choose a Game:
 
 Navigate to the game folder you're interested in.
