@@ -3,6 +3,7 @@
 
 Features:
 🌟 Diverse Games:
+Play Games: https://satheshm.selfmade.one/Mini_Games/
 
 Enjoy a variety of games, from classic arcade challenges to innovative puzzles.
 🛠️ Open Source:
