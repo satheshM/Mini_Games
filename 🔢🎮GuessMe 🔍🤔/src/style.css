@@ -1,0 +1,90 @@
+body{
+    background: linear-gradient(
+        to right,
+        #333399af,
+        #ff00ccb5
+    ); 
+    font-family: Arial, sans-serif;
+    display: flex;
+    
+}
+#GameContainer{
+    border-radius: 10px;
+    padding: 20px;
+    margin: auto;
+    text-align: center;
+    font-size: 2rem;
+    font-weight: bold;
+    background: linear-gradient(
+        to right,
+        #333399,
+        #ff00cc
+    ); 
+
+    backdrop-filter: blur(1rem);
+box-shadow:10px 10px 9px rgba(255, 255, 255, 0.635);
+
+
+}
+
+input{
+    font-weight: bold;
+    font-size: 2rem;
+    width: 110px;
+    background-color: rgb(225, 237, 246);
+    border-radius: 10px;
+    text-align: center;
+    color: #ff0101dd;
+}
+input:focus{
+    border: solid rgb(161, 239, 178) 5px;
+
+}
+#hint{
+    color:rgb(171, 221, 255)
+}
+button{
+    border-radius: 10px;
+    background-color: rgb(16, 183, 69);
+    font-weight: bold;
+    height: rem;
+    cursor: pointer;
+    font-size: 1.5rem;
+    color: rgb(255, 255, 255);
+    transition: box-shadow 0.15s ease,transform 0.15s ease;
+   
+    margin: 10px;
+
+
+}
+
+
+
+button:hover {
+    box-shadow: 0px 4px 8px rgba(178, 142, 255, 0.4), 0px 7px 13px -3px rgba(219, 95, 224, 0.714), inset 0px -3px 0px #50d990;
+    transform: translateY(-2px);
+    background-color: #47c984;
+}
+button:active{
+    box-shadow: inset 0px 3px 7px #141414dd;
+    transform: translateY(2px);
+    background-color:#ff0066;
+    
+}
+
+#hint{
+    background-image: linear-gradient(to right, #ff5ff7, #9971ff);
+    border-radius: 7px;;
+    font-size: 1.5rem;
+    color:aliceblue;
+    
+            
+}
+#attempt{
+    border: solid 5px whitesmoke;
+    border-radius: 30%;
+    background-color: aliceblue;
+}
+p{
+    color: 	#FFDF00;
+}
